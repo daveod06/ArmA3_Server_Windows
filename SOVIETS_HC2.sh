@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
-source ~/.bashrc
+
+name="HC2"
+collection="SOVIETS"
 
 # Read in non-mod args
-args=" -name=HC2 -profile=HC2"
+args=" -name=${name} -profile=${name}"
 while read LINE;
-    #do echo "$LINE"
     do args="$args $LINE"
 done < headless_args.txt
 
@@ -19,6 +20,6 @@ args="$args\""
 
 exe=C:/Program\ Files\ \(x86\)/Steam/steamapps/common/Arma\ 3/arma3_x64.exe
 
-echo "Starting Server using ${exe}${args}"
+echo "Starting ${collection} ${name} using ${exe}${args}"
 
 ${exe}${args}

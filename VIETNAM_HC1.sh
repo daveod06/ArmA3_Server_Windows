@@ -1,8 +1,11 @@
 #!/usr/bin/env bash
-source ~/.bashrc
+
+name="HC1"
+collection="VIETNAM"
 
 # Read in non-mod args
-args=" -name=HC1 -profile=HC1"
+args=" -name=${name} -profile=${name}"
+
 while read LINE;
     #do echo "$LINE"
     do args="$args $LINE"
@@ -19,6 +22,6 @@ args="$args\""
 
 exe=C:/Program\ Files\ \(x86\)/Steam/steamapps/common/Arma\ 3/arma3_x64.exe
 
-echo "Starting Server using ${exe}${args}"
+echo "Starting ${collection} ${name} using ${exe}${args}"
 
 ${exe}${args}

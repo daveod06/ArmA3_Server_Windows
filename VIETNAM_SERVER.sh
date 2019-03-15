@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-source ~/.bashrc
+
+name="Server"
+collection="VIETNAM"
 
 # Read in non-mod args
 args=""
@@ -19,6 +21,6 @@ args="$args\""
 
 exe=C:/Program\ Files\ \(x86\)/Steam/steamapps/common/Arma\ 3\ Server/arma3server_x64.exe
 
-echo "Starting Server using ${exe}${args}"
+echo "Starting ${collection} ${name} using ${exe}${args}"
 
 ${exe}${args}
