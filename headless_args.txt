@@ -1,0 +1,11 @@
+-connect=localhost
+-port=2302
+-client
+-nosound
+-password=tits
+-world=empty
+-nosplash
+-skipIntro
+-profiles="C:/Program Files (x86)/Steam/steamapps/common/Arma 3 Server/Profiles"
+-config="C:/Program Files (x86)/Steam/steamapps/common/Arma 3 Server/config.cfg"
+-cfg="C:/Program Files (x86)/Steam/steamapps/common/Arma 3 Server/basic.cfg"
