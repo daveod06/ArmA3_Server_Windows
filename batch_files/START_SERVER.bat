@@ -1,23 +1,27 @@
 @echo off
-//C:\Windows\System32\tasklist /FI "IMAGENAME eq arma3server_x64.exe" 2>NUL | C:\Windows\System32\find /I /N "arma3server_x64.exe">NUL
-//echo Server monitored is not running, will be started now
+setlocal EnableExtensions EnableDelayedExpansion
+C:\Windows\System32\tasklist /FI "IMAGENAME eq arma3server_x64.exe" 2>NUL | C:\Windows\System32\find /I /N "arma3server_x64.exe">NUL
+echo Server monitored is not running, will be started now
 
-set "BaseModsFile=base_mods.txt"
+set BaseModsFile="D:\Games\Steam\steamapps\common\Arma 3 Server\batch_files\base_mods.txt"
+//FOR %%i IN (%BaseModsFile%) DO IF EXIST %%~si\NUL ECHO It's a file
 If Not Exist "%BaseModsFile%" (Goto :ErrorBase)
 
 //set "CollectionModsFile=soviets_mods.txt"
 //If Not Exist "%CollectionModsFile%" (Goto :ErrorCollection)
 
-set "ArgsFile=server_args.txt"
+set ArgsFile="D:\Games\Steam\steamapps\common\Arma 3 Server\batch_files\server_args.txt"
+//FOR %%i IN (%BaseModsFile%) DO IF EXIST %%~si\NUL ECHO It's a file again
 If Not Exist "%ArgsFile%" (Goto :ErrorArgs)
 
-SET "base_mods=mods"
-setlocal EnableExtensions EnableDelayedExpansion
+SET base_mods=mods=
+
 FOR /F %%l IN (%BaseModsFile%) DO (
-	SET base_mods=%%l
+	SET base_mods="%base_mods%%%l"
 )
 
-echo base_mods
+echo "base_mods:"
+echo %base_mods%
 pause
 
 //for /F "usebackq tokens=*" %%A in ("my file.txt") do [process] %%A
