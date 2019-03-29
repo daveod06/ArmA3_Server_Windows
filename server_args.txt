@@ -5,8 +5,9 @@
 -nosplash
 -skipIntro
 -loadMissionToMemory
+-name=server
+-bandwidthAlg=2
+"-serverMod="
 "-profiles=D:\Steam\steamapps\common\Arma 3 Server\Profiles"
 "-config=D:\Steam\steamapps\common\Arma 3 Server\config.cfg"
 "-cfg=D:\Steam\steamapps\common\Arma 3 Server\basic.cfg"
--bandwidthAlg=2
-"-serverMod="

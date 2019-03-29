@@ -1,0 +1,9 @@
+https://stackoverflow.com/questions/41387723/batch-reading-in-a-line-from-a-file-that-has-a-colon-and-exclamation/41388147#41388147
+
+https://stackoverflow.com/questions/41386156/batch-enabledelayedexpansion-exclamation-mark-and-file-folder-names
+
+https://superuser.com/questions/592994/concatenating-string-in-for-loop-in-batch-file
+
+https://stackoverflow.com/questions/18600317/batch-file-append-a-string-inside-a-for-loop
+
+
