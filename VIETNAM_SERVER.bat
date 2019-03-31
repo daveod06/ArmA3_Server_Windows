@@ -7,7 +7,7 @@ ECHO Server monitored is not running, will be started now
 SET BaseModsFile=base_mods.txt
 SET CollectionModsFile=vietnam_mods.txt
 SET ServerArgsFile=server_args.txt
-SET ServerExe="D:\Steam\steamapps\common\Arma 3 Server\arma3server_x64.exe"
+SET ServerExe="C:\Games\steamapps\common\Arma 3 Server\arma3server_x64.exe"
 
 :: BASE MODS
 SET mods_arg="mod=

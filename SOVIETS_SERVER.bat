@@ -4,10 +4,10 @@ C:\Windows\System32\tasklist /FI "IMAGENAME eq arma3server_x64.exe" 2>NUL | C:\W
 echo Server monitored is not running, will be started now
 
 :: FILE PATHS
-SET BaseModsFile=\\infc2_file\fileserv_data01\users\dj005112\Documents\server\base_mods.txt
-SET CollectionModsFile=\\infc2_file\fileserv_data01\users\dj005112\Documents\server\soviets_mods.txt
-SET ServerArgsFile=\\infc2_file\fileserv_data01\users\dj005112\Documents\server\server_args.txt
-SET ServerExe="C:\Games\Steam\steamapps\common\Arma 3 Server\arma3server_x64.exe"
+SET BaseModsFile=base_mods.txt
+SET CollectionModsFile=soviets_mods.txt
+SET ServerArgsFile=server_args.txt
+SET ServerExe="C:\Games\steamapps\common\Arma 3 Server\arma3server_x64.exe"
 
 :: BASE MODS
 SET mods_arg="mod=

@@ -8,6 +8,6 @@
 -nosplash
 -skipIntro
 -name=HC2
-"-profiles=D:\Steam\steamapps\common\Arma 3 Server\Profiles"
-"-config=D:\Steam\steamapps\common\Arma 3 Server\config.cfg"
-"-cfg=D:\Steam\steamapps\common\Arma 3 Server\basic.cfg"
+"-profiles=C:\Games\steamapps\common\Arma 3\Profiles"
+"-config=C:\Games\steamapps\common\Arma 3\config.cfg"
+"-cfg=C:\Games\steamapps\common\Arma 3\basic.cfg"
