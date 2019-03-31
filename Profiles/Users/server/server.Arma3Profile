@@ -4,9 +4,7 @@ gamma=1;
 brightness=1;
 maxSamplesPlayed=128;
 version=2;
-activeKeys[]=
-{
-};
+activeKeys[]={};
 class DifficultyPresets
 {
 	class CustomDifficulty
