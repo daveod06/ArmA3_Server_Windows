@@ -1,3 +1,7 @@
+^!Workshop\@RHSAFRF;
+^!Workshop\@RHSGREF;
+^!Workshop\@RHSSAF;
+^!Workshop\@RHSUSAF;
 ^!Workshop\@ALiVE;
 ^!Workshop\@CBA_A3;
 ^!Workshop\@CUP Terrains - Core;
@@ -5,10 +9,6 @@
 ^!Workshop\@Enhanced Movement;
 ^!Workshop\@MCC Sandbox 4 -  Mission Making The Easy Way;
 ^!Workshop\@Project OPFOR;
-^!Workshop\@RHSAFRF;
-^!Workshop\@RHSGREF;
-^!Workshop\@RHSSAF;
-^!Workshop\@RHSUSAF;
 ^!Workshop\@NIArms All in One;
 ^!Workshop\@NIArms All in One - RHS Compatibility;
 ^!Workshop\@NIArms Core;

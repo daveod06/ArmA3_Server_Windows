@@ -6,4 +6,4 @@ https://superuser.com/questions/592994/concatenating-string-in-for-loop-in-batch
 
 https://stackoverflow.com/questions/18600317/batch-file-append-a-string-inside-a-for-loop
 
-
+https://www.reddit.com/r/arma/comments/63e05t/arma_3_server_question/
