@@ -12,3 +12,4 @@
 ^!Workshop\@NIArms All in One;
 ^!Workshop\@NIArms All in One - RHS Compatibility;
 ^!Workshop\@NIArms Core;
+^!Workshop\@Achilles;

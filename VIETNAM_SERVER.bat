@@ -29,8 +29,10 @@ FOR /f "delims=" %%x IN (%ServerArgsFile%) DO (
 )
 
 ECHO Starting ArmA 3 Server using:
-ECHO START "ArmA3" /wait !ServerExe! !server_args! !mods_arg!
-START "ArmA3" /wait !ServerExe! !server_args! !mods_arg!
+::ECHO START "ArmA3" /wait !ServerExe! !server_args! !mods_arg!
+ECHO START "ArmA3" /wait "-profiles=C:\Games\steamapps\common\Arma 3\Profiles" "-par=C:\Games\steamapps\common\Arma 3\vietnam_par.txt"
+:: START "ArmA3" /wait !ServerExe! !server_args! 
+START "ArmA3" /wait "-profiles=C:\Games\steamapps\common\Arma 3\Profiles" !mods_arg!
 
 PAUSE
 

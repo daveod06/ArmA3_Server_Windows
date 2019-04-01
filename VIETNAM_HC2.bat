@@ -7,10 +7,10 @@ echo Server monitored is not running, will be started now
 SET BaseModsFile=base_mods.txt
 SET CollectionModsFile=vietnam_mods.txt
 SET ServerArgsFile=headless_args2.txt
-SET ServerExe="D:\Steam\steamapps\common\Arma 3 Server\arma3server_x64.exe"
+SET ServerExe="C:\Games\steamapps\common\Arma 3 Server\arma3server_x64.exe"
 
 :: BASE MODS
-SET mods_arg="mods=
+SET mods_arg="mod=
 SETLOCAL EnableDelayedExpansion
 FOR /f "delims=" %%x IN (%BaseModsFile%) DO (
 	CALL SET mods_arg=%%mods_arg%%%%x
@@ -28,12 +28,11 @@ FOR /f "delims=" %%x IN (%ServerArgsFile%) DO (
 	CALL SET server_args=%%server_args%% %%x
 )
 
-SET full_command=start "" /wait !ServerExe! !server_args! !mods_arg!
 ECHO Starting ArmA 3 Server using:
-ECHO !full_command!
+ECHO START "ArmA3" /wait !ServerExe! !server_args! !mods_arg!
+START "ArmA3" /wait !ServerExe! !server_args! !mods_arg!
 
-START "" /wait !ServerExe! !server_args! !mods_arg!
-
+PAUSE
 
 
 PAUSE
