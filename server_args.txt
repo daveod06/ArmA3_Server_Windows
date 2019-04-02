@@ -1,5 +1,5 @@
 "-profiles=C:\Games\steamapps\common\Arma 3\Profiles"
--port=2305
+-port=2302
 -showScriptErrors
 -filePatching
 -world=empty

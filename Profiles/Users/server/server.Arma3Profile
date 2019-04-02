@@ -4,7 +4,10 @@ gamma=1;
 brightness=1;
 maxSamplesPlayed=128;
 version=2;
-activeKeys[]={};
+activeKeys[]=
+{
+	"BIS_Escape_Vietnam.Tanoa_done"
+};
 class DifficultyPresets
 {
 	class CustomDifficulty
