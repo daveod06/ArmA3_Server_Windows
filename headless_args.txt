@@ -1,0 +1,12 @@
+-connect=localhost
+-port=2302
+-client
+-nosound
+-password=tits
+-filePatching
+-world=empty
+-nosplash
+-skipIntro
+"-profiles=C:\Games\steamapps\common\Arma 3\Profiles"
+"-config=C:\Games\steamapps\common\Arma 3\config.cfg"
+"-cfg=C:\Games\steamapps\common\Arma 3\basic.cfg"
