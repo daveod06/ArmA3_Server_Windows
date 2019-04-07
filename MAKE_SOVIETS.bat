@@ -19,6 +19,13 @@ FOR /f "delims=" %%x IN (%CollectionModsFile%) DO (
 )
 CALL SET mods_arg=%%mods_arg%%"
 
+:: SERVER MODS
+SET server_mods_arg="-serverMod=
+FOR /f "delims=" %%x IN (%ServerModsFile%) DO (
+	CALL SET server_mods_arg=%%server_mods_arg%%%%x
+)
+CALL SET server_mods_arg=%%server_mods_arg%%"
+
 :: SERVER ARGS
 SET server_args=
 FOR /f "delims=" %%x IN (%ServerArgsFile%) DO (
@@ -35,6 +42,6 @@ CALL SET headless_args2=%%headless_args%% -name=HC2
 
 setlocal disableDelayedExpansion disableExtensions
 
-ECHO START "ArmA3" /wait %ServerExe% %server_args% %mods_arg%> SOVIETS_SERVER.bat
+ECHO START "ArmA3" /wait %ServerExe% %server_args%  %server_mods_arg% %mods_arg%> SOVIETS_SERVER.bat
 ECHO START "ArmA3" /wait %ServerExe% %headless_args1% %mods_arg%> SOVIETS_HC1.bat
 ECHO START "ArmA3" /wait %ServerExe% %headless_args2% %mods_arg%> SOVIETS_HC2.bat
