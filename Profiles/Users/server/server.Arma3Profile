@@ -6,7 +6,8 @@ maxSamplesPlayed=128;
 version=2;
 activeKeys[]=
 {
-	"BIS_Escape_vietnam.tanoa_done"
+	"BIS_Escape_Vietnam.tanoa_done",
+	"BIS_Escape_Takistan.Takistan_done"
 };
 class DifficultyPresets
 {
@@ -31,7 +32,7 @@ class DifficultyPresets
 			commands=1;
 			waypoints=2;
 			tacticalPing=1;
-			mapContentPing=1;
+			mapContentPing=0;
 			weaponInfo=2;
 			stanceIndicator=2;
 			staminaBar=0;
@@ -42,7 +43,7 @@ class DifficultyPresets
 			scoreTable=1;
 			deathMessages=1;
 			vonID=1;
-			mapContent=1;
+			mapContent=0;
 			autoReport=1;
 			multipleSaves=0;
 		};

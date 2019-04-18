@@ -2,6 +2,7 @@
 :: FILE PATHS
 SET BaseModsFile=base_mods.txt
 SET CollectionModsFile=soviets_mods.txt
+SET ServerModsFile=server_mods.txt
 SET ServerArgsFile=server_args.txt
 SET HeadlessArgsFile=headless_args.txt
 SET ServerExe="C:\Games\steamapps\common\Arma 3 Server\arma3server_x64.exe"
