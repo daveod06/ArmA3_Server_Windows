@@ -9,6 +9,5 @@
 -bandwidthAlg=2
 -loadMissionToMemory
 -server
-"-serverMod="
 "-config=C:\Games\steamapps\common\Arma 3\config.cfg"
 "-cfg=C:\Games\steamapps\common\Arma 3\basic.cfg"
