@@ -1,0 +1,26 @@
+version=2;
+blood=1;
+singleVoice=0;
+gamma=1;
+brightness=1;
+lastMPMission="Takistan_Mujahideen";
+class MainMap
+{
+	class Compass
+	{
+		inBack=0;
+		position[]={-0.068000004,-0.063750006,0.2};
+		positionBack[]={0.010000003,0,0.1};
+	};
+};
+maxSamplesPlayed=128;
+sceneComplexity=300000;
+shadowZDistance=125;
+viewDistance=6000;
+preferredObjectViewDistance=4000;
+terrainGrid=6.25;
+volumeCD=10;
+volumeFX=10;
+volumeSpeech=10;
+volumeVoN=10;
+vonRecThreshold=0.029999999;
