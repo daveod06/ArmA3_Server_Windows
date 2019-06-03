@@ -69,12 +69,12 @@ class DifficultyPresets
 
 		};
 		aiLevelPreset = 2;          // ???
-        levelAI = "AILevelMedium";  // Level of AI skill
+        levelAI = "AILevelLow";  // Level of AI skill
 	};
 	class CustomAILevel
 	{
-		skillAI=0.5;
-		precisionAI=0.1;
+		skillAI=0.2;
+		precisionAI=0.05;
 	};
 };
 difficulty="custom";
