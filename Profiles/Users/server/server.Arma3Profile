@@ -40,7 +40,7 @@ class DifficultyPresets
 			commands = 1;			// Displays command icons like target markers, get in command and others. (0 = never, 1 = fade out, 2 = always)
 			waypoints = 2;			// Manages visibility of waypoint markers. (0 = never, 1 = fade out, 2 = always)
 			tacticalPing = 1;		// Tactical ping, don't really know what this does (0 = disable, 1 = enable)
-            mapContentPing = 1;     // Map content ping, don't really know what this does (0 = disable, 1 = enable)
+            //mapContentPing = 1;     // Map content ping, don't really know what this does (0 = disable, 1 = enable)
 
 			/* Personal awareness */
 
@@ -63,7 +63,7 @@ class DifficultyPresets
 
 			/* Misc */
 
-			mapContent = 0;			// Extended map content (0 = disabled, 1 = enabled)
+			mapContent = 1;			// Shows friendly units, enemy units and detected mines on the map (0 = disabled, 1 = enabled)
 			autoReport = 1;			// Enables/disables automatic reporting of spotted enemies by players only. This setting does not have effect on AI. (0 = disabled, 1 = enabled)
 			multipleSaves = 0;		// Allows player to create multiple saves in a mission. (0 = disabled, 1 = enabled)
 
