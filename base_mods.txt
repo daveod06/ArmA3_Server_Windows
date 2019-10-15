@@ -13,3 +13,4 @@ C:\Games\steamapps\common\Arma 3\^!Workshop\@NIArms All in One;
 C:\Games\steamapps\common\Arma 3\^!Workshop\@NIArms All in One - RHS Compatibility;
 C:\Games\steamapps\common\Arma 3\^!Workshop\@NIArms Core;
 C:\Games\steamapps\common\Arma 3\^!Workshop\@Achilles;
+C:\Games\steamapps\common\Arma 3\^!Workshop\@3den Enhanced;
