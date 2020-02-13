@@ -1,4 +1,4 @@
 C:\Games\steamapps\common\Arma 3\^!Workshop\@Immersion Cigs;
 C:\Games\steamapps\common\Arma 3\^!Workshop\@RHSPKL;
 C:\Games\steamapps\common\Arma 3\^!Workshop\@The_Unsung_Vietnam_War_Mod;
-C:\Games\steamapps\common\Arma 3\^!Workshop\@Daves-NiArms-AK-Compatibility;
+C:\Games\steamapps\common\Arma 3\@Daves-NiArms-AK-Compatibility;
