@@ -1,4 +1,4 @@
-C:\Games\steamapps\common\Arma 3\^!Workshop\@Cartridge Cases;
-C:\Games\steamapps\common\Arma 3\^!Workshop\@Realistic Units Ragdoll;
-C:\Games\steamapps\common\Arma 3\^!Workshop\@Advanced Breaching;
-C:\Games\steamapps\common\Arma 3\^!Workshop\@Advanced Rappelling;
+C:\Games\Steam\steamapps\common\Arma 3\^!Workshop\@Cartridge Cases;
+C:\Games\Steam\steamapps\common\Arma 3\^!Workshop\@Realistic Units Ragdoll;
+C:\Games\Steam\steamapps\common\Arma 3\^!Workshop\@Advanced Breaching;
+C:\Games\Steam\steamapps\common\Arma 3\^!Workshop\@Advanced Rappelling;

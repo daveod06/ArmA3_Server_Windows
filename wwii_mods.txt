@@ -1,6 +1,6 @@
-C:\Games\steamapps\common\Arma 3\^!Workshop\@Immersion Cigs;
-C:\Games\steamapps\common\Arma 3\^!Workshop\@Faces of war;
-C:\Games\steamapps\common\Arma 3\^!Workshop\@IFA3_AIO_LITE;
-C:\Games\steamapps\common\Arma 3\^!Workshop\@Iron Front ArmA 3 - Faces of War Compatibility patch;
-C:\Games\steamapps\common\Arma 3\^!Workshop\@LEN - Weapons pack for IFA3 LITE;
-C:\Games\steamapps\common\Arma 3\^!Workshop\@Sab Secret Weapons;
+C:\Games\Steam\steamapps\common\Arma 3\^!Workshop\@Immersion Cigs;
+C:\Games\Steam\steamapps\common\Arma 3\^!Workshop\@Faces of war;
+C:\Games\Steam\steamapps\common\Arma 3\^!Workshop\@IFA3_AIO_LITE;
+C:\Games\Steam\steamapps\common\Arma 3\^!Workshop\@Iron Front ArmA 3 - Faces of War Compatibility patch;
+C:\Games\Steam\steamapps\common\Arma 3\^!Workshop\@LEN - Weapons pack for IFA3 LITE;
+C:\Games\Steam\steamapps\common\Arma 3\^!Workshop\@Sab Secret Weapons;

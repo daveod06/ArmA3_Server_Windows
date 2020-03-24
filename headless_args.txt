@@ -7,6 +7,6 @@
 -world=empty
 -nosplash
 -skipIntro
-"-profiles=C:\Games\steamapps\common\Arma 3\Profiles"
-"-config=C:\Games\steamapps\common\Arma 3\config.cfg"
-"-cfg=C:\Games\steamapps\common\Arma 3\basic.cfg"
+"-profiles=D:\Games\Steam\steamapps\common\Arma 3 Server\Profiles"
+"-config=D:\Games\Steam\steamapps\common\Arma 3 Server\config.cfg"
+"-cfg=D:\Games\Steam\steamapps\common\Arma 3 Server\basic.cfg"

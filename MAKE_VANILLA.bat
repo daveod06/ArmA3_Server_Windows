@@ -2,7 +2,7 @@
 :: FILE PATHS
 SET ServerArgsFile=server_args.txt
 SET HeadlessArgsFile=headless_args.txt
-SET ServerExe="C:\Games\steamapps\common\Arma 3 Server\arma3server_x64.exe"
+SET ServerExe="D:\Games\Steam\steamapps\common\Arma 3 Server\arma3server_x64.exe"
 
 :: SERVER ARGS
 SET server_args=
