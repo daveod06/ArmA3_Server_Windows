@@ -1,3 +1,4 @@
 C:\Games\steamapps\common\Arma 3\^!Workshop\@Immersion Cigs;
 C:\Games\steamapps\common\Arma 3\^!Workshop\@RHSPKL;
+C:\Games\steamapps\common\Arma 3\@Prei Khmaoch Luong;
 C:\Games\steamapps\common\Arma 3\^!Workshop\@The_Unsung_Vietnam_War_Mod;
