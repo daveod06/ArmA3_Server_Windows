@@ -13,4 +13,3 @@ C:\Games\steamapps\common\Arma 3\^!Workshop\@CUP Weapons;
 C:\Games\steamapps\common\Arma 3\^!Workshop\@RHS- CUP Weapons Compatibility All-In-One (Extra Weapons);
 C:\Games\steamapps\common\Arma 3\^!Workshop\@Achilles;
 C:\Games\steamapps\common\Arma 3\^!Workshop\@3den Enhanced;
-C:\Games\steamapps\common\Arma 3\^!Workshop\@Vanilla-RHS-NiArms AK Compatibility;
