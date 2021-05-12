@@ -6,75 +6,65 @@ maxSamplesPlayed=128;
 version=2;
 activeKeys[]=
 {
+	"BIS_escape_takistan.takistan_done",
+	"BIS_Escape_Vietnam.Tanoa_done",
+	"BIS_Escape_cuba.tanoa_done",
+	"BIS_Escape_USSR.Chernarus_winter_done",
+	"BIS_escape_malden.malden_done",
+	"BIS_Escape_USSR_60s.Chernarus_winter_done",
+	"BIS_tanoa_raid.tanoa_done",
+	"BIS_escape_porto.porto_done",
+	"BIS_porto_test.porto_done",
+	"BIS_tanoa_test.tanoa_done",
+	"BIS_escape_zargabad.zargabad_done",
+	"BIS_Escape_Cambodia.prei_khmaoch_luong_done",
+	"BIS_Dynamic-Recon-Ops-Vietnam.Tanoa_done",
+	"BIS_PUBG_Vietnam.Tanoa_done"
 };
 class DifficultyPresets
 {
-    //Parameters that affect the Limited distance choice for Group Indicators, Friendly Name Tags, Enemy Name Tags and Detected Mines.
-	//They determine on which distance the indicators are fully visible and how many more meters it takes until the indicator fades-out completely.
-	fadeDistanceStart = 90.0;
-	fadeDistanceSpan = 10.0;
-
-	recoilCoef = 1;
-	visionAidCoef = 0.8;
-	divingLimitMultiplier = 1.0;	// Multiplier to limit capacity of lungs for soldiers.
-
-	animSpeedCoef = 0;
-	cancelThreshold = 0;			// Threshold used for interrupting action.
-	showCadetHints = 0;             // (0 = disabled, 1 = enabled)
-	showCadetWP = 0;                // (0 = disabled, 1 = enabled)
-
+	fadeDistanceStart=90;
+	fadeDistanceSpan=10;
+	recoilCoef=1;
+	visionAidCoef=0.80000001;
+	divingLimitMultiplier=1;
+	animSpeedCoef=0;
+	cancelThreshold=0;
+	showCadetHints=0;
+	showCadetWP=0;
 	class CustomDifficulty
 	{
 		class Options
 		{
-            /* Simulation */
-
-			reducedDamage = 0;		// Decreases damage dealt to the player and members of his group. This breaks RHS tanks if enabled. (0 = disabled, 1 = enabled)
-
-			/* Situational awareness */
-
-			groupIndicators = 2;	// Shows indication icons on units in player's group. (0 = never, 1 = limited distance, 2 = always)
-			friendlyTags = 1;		// Friendly unit identification. Works only when the player aims at a unit.  (0 = never, 1 = limited distance, 2 = always)
-			enemyTags = 0;			// Enemy unit identification. Works only when the player aims at a unit. (0 = never, 1 = limited distance, 2 = always)
-			detectedMines = 1;		// Shows icons indicating exact positions of mines. show = display the indicators on mines at 200m and closer. (0 = never, 1 = limited distance, 2 = always)
-			commands = 1;			// Displays command icons like target markers, get in command and others. (0 = never, 1 = fade out, 2 = always)
-			waypoints = 2;			// Manages visibility of waypoint markers. (0 = never, 1 = fade out, 2 = always)
-			tacticalPing = 1;		// Tactical ping, don't really know what this does (0 = disable, 1 = enable)
-            //mapContentPing = 1;     // Map content ping, don't really know what this does (0 = disable, 1 = enable)
-
-			/* Personal awareness */
-
-			weaponInfo = 2;			// Weapon info (0 = never, 1 = fade out, 2 = always)
-			stanceIndicator = 2;	// Stance indicator (0 = never, 1 = fade out, 2 = always)
-			staminaBar = 0;			// Manages visibility of stamina indicator. true = fades in when stamina changes. (0 = disabled, 1 = enabled)
-			weaponCrosshair = 0;	// Shows weapon crosshair both in 1st and 3rd person view (0 = disabled, 1 = enabled)
-			visionAid = 0;			// Helps to detect units in visual range and identify friend from foe. (0 = disabled, 1 = enabled)
-
-			/* View */
-
-			thirdPersonView = 1;	// Enables camera switching to 3rd person view. (0 = disabled, 1 = enabled) 
-			cameraShake = 1;		// Shakes camera if player is near explosion, passing vehicle or if player's vehicle is under G-load. (0 = disabled, 1 = enabled)
-
-			/* Multiplayer */
-
-			scoreTable = 1;			// Displays table with kills, deaths and overall score in multiplayer. (0 = disabled, 1 = enabled)
-			deathMessages = 1;		// Shows in chat window who killed the player. (0 = disabled, 1 = enabled)
-			vonID = 1;			    // Indicates who is speaking through VON communication. (0 = disabled, 1 = enabled)
-
-			/* Misc */
-
-			mapContent = 1;			// Shows friendly units, enemy units and detected mines on the map (0 = disabled, 1 = enabled)
-			autoReport = 1;			// Enables/disables automatic reporting of spotted enemies by players only. This setting does not have effect on AI. (0 = disabled, 1 = enabled)
-			multipleSaves = 0;		// Allows player to create multiple saves in a mission. (0 = disabled, 1 = enabled)
-
+			reducedDamage=0;
+			groupIndicators=2;
+			friendlyTags=1;
+			enemyTags=0;
+			detectedMines=1;
+			commands=1;
+			waypoints=2;
+			tacticalPing=1;
+			weaponInfo=2;
+			stanceIndicator=2;
+			staminaBar=0;
+			weaponCrosshair=0;
+			visionAid=0;
+			thirdPersonView=1;
+			cameraShake=1;
+			scoreTable=1;
+			deathMessages=1;
+			vonID=1;
+			mapContent=1;
+			autoReport=1;
+			multipleSaves=0;
 		};
-		aiLevelPreset = 1;          // ???
-        levelAI = "AILevelLow";  // Level of AI skill
+		aiLevelPreset=1;
+		levelAI="AILevelLow";
 	};
 	class CustomAILevel
 	{
 		skillAI=0.2;
-		precisionAI=0.05;
+		precisionAI=0.050000001;
 	};
 };
 difficulty="custom";
@@ -89,3 +79,4 @@ volumeFX=10;
 volumeSpeech=10;
 volumeVoN=10;
 vonRecThreshold=0.029999999;
+volumeMapDucking=1;
