@@ -10,4 +10,4 @@
 "-profiles=C:\Games\steamapps\common\Arma 3\Profiles"
 "-config=C:\Games\steamapps\common\Arma 3\config.cfg"
 "-cfg=C:\Games\steamapps\common\Arma 3\basic.cfg"
--mod=curator;kart;heli;mark;expansion;jets;argo;orange;tacops;tank;dlcbundle;dlcbundle2;vn;
+-mod=curator;kart;heli;mark;expansion;jets;argo;orange;tacops;tank;dlcbundle;dlcbundle2;

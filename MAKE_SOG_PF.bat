@@ -2,8 +2,8 @@
 :: FILE PATHS
 SET CollectionModsFile=sog_pf_mods.txt
 SET ServerModsFile=server_mods.txt
-SET ServerArgsFile=server_args.txt
-SET HeadlessArgsFile=headless_args.txt
+SET ServerArgsFile=server_args_sog_pf.txt
+SET HeadlessArgsFile=headless_args_sof_pf.txt
 SET ServerExe="C:\Games\steamapps\common\Arma 3 Server\arma3server_x64.exe"
 
 :: COLLECTION MODS

@@ -19,7 +19,9 @@ activeKeys[]=
 	"BIS_escape_zargabad.zargabad_done",
 	"BIS_Escape_Cambodia.prei_khmaoch_luong_done",
 	"BIS_Dynamic-Recon-Ops-Vietnam.Tanoa_done",
-	"BIS_PUBG_Vietnam.Tanoa_done"
+	"BIS_PUBG_Vietnam.Tanoa_done",
+	"BIS_Escape_Cam_Lao_Nam.Cam_Lao_Nam_done",
+	"BIS_Dynamic-Recon-Ops.Cam_Lao_Nam_done"
 };
 class DifficultyPresets
 {
@@ -73,6 +75,7 @@ sceneComplexity=300000;
 shadowZDistance=125;
 viewDistance=6000;
 preferredObjectViewDistance=4000;
+pipViewDistance=500;
 terrainGrid=3.125;
 volumeCD=10;
 volumeFX=10;
