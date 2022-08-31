@@ -57,6 +57,7 @@ sceneComplexity=300000;
 shadowZDistance=125;
 viewDistance=6000;
 preferredObjectViewDistance=4000;
+pipViewDistance=500;
 terrainGrid=3.125;
 volumeCD=10;
 volumeFX=10;

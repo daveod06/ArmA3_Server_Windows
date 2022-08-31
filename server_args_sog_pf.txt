@@ -1,14 +1,16 @@
-"-profiles=C:\Games\steamapps\common\Arma 3\Profiles"
+-server
+-name=server
 -port=2302
 -showScriptErrors
 -filePatching
 -world=empty
 -nosplash
 -skipIntro
--name=server
 -bandwidthAlg=2
 -loadMissionToMemory
--server
+-enableHT
+-malloc=system
+"-profiles=C:\Games\steamapps\common\Arma 3\Profiles"
 "-config=C:\Games\steamapps\common\Arma 3\config.cfg"
 "-cfg=C:\Games\steamapps\common\Arma 3\basic.cfg"
 -mod=curator;kart;heli;mark;expansion;jets;argo;orange;tacops;tank;dlcbundle;dlcbundle2;vn;

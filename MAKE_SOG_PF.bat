@@ -3,7 +3,7 @@
 SET CollectionModsFile=sog_pf_mods.txt
 SET ServerModsFile=server_mods.txt
 SET ServerArgsFile=server_args_sog_pf.txt
-SET HeadlessArgsFile=headless_args_sof_pf.txt
+SET HeadlessArgsFile=headless_args_sog_pf.txt
 SET ServerExe="C:\Games\steamapps\common\Arma 3 Server\arma3server_x64.exe"
 
 :: COLLECTION MODS
@@ -34,9 +34,13 @@ FOR /f "delims=" %%x IN (%HeadlessArgsFile%) DO (
 )
 CALL SET headless_args1=%%headless_args%% -name=HC1
 CALL SET headless_args2=%%headless_args%% -name=HC2
+CALL SET headless_args3=%%headless_args%% -name=HC3
+CALL SET headless_args4=%%headless_args%% -name=HC4
 
 setlocal disableDelayedExpansion disableExtensions
 
 ECHO START "ArmA3" /wait %ServerExe% %server_args%  %server_mods_arg% %mods_arg%> SOG_PF_SERVER.bat
 ECHO START "ArmA3" /wait %ServerExe% %headless_args1% %mods_arg%> SOG_PF_HC1.bat
 ECHO START "ArmA3" /wait %ServerExe% %headless_args2% %mods_arg%> SOG_PF_HC2.bat
+ECHO START "ArmA3" /wait %ServerExe% %headless_args3% %mods_arg%> SOG_PF_HC3.bat
+ECHO START "ArmA3" /wait %ServerExe% %headless_args4% %mods_arg%> SOG_PF_HC4.bat

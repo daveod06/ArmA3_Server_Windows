@@ -3,7 +3,7 @@ blood=1;
 singleVoice=0;
 gamma=1;
 brightness=1;
-lastMPMission="Takistan_Mujahideen";
+lastMPMission="debug_test_mission";
 class MainMap
 {
 	class Compass
@@ -18,9 +18,11 @@ sceneComplexity=300000;
 shadowZDistance=125;
 viewDistance=6000;
 preferredObjectViewDistance=4000;
-terrainGrid=6.25;
+pipViewDistance=500;
+terrainGrid=3.125;
 volumeCD=10;
 volumeFX=10;
 volumeSpeech=10;
 volumeVoN=10;
 vonRecThreshold=0.029999999;
+volumeMapDucking=1;
