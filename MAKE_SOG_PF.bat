@@ -36,6 +36,7 @@ CALL SET headless_args1=%%headless_args%% -name=HC1
 CALL SET headless_args2=%%headless_args%% -name=HC2
 CALL SET headless_args3=%%headless_args%% -name=HC3
 CALL SET headless_args4=%%headless_args%% -name=HC4
+CALL SET headless_args5=%%headless_args%% -name=HC5
 
 setlocal disableDelayedExpansion disableExtensions
 
@@ -44,3 +45,4 @@ ECHO START "ArmA3" /wait %ServerExe% %headless_args1% %mods_arg%> SOG_PF_HC1.bat
 ECHO START "ArmA3" /wait %ServerExe% %headless_args2% %mods_arg%> SOG_PF_HC2.bat
 ECHO START "ArmA3" /wait %ServerExe% %headless_args3% %mods_arg%> SOG_PF_HC3.bat
 ECHO START "ArmA3" /wait %ServerExe% %headless_args4% %mods_arg%> SOG_PF_HC4.bat
+ECHO START "ArmA3" /wait %ServerExe% %headless_args5% %mods_arg%> SOG_PF_HC5.bat
