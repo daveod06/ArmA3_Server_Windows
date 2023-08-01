@@ -1,9 +1,9 @@
 @echo off
 :: FILE PATHS
-SET CollectionModsFile=sog_pf_mods.txt
+SET CollectionModsFile=sog_pf+ws_mods.txt
 SET ServerModsFile=server_mods.txt
-SET ServerArgsFile=server_args_sog_pf.txt
-SET HeadlessArgsFile=headless_args_sog_pf.txt
+SET ServerArgsFile=server_args_sog_pf+ws.txt
+SET HeadlessArgsFile=headless_args_sog_pf+ws.txt
 SET ServerExe="C:\Games\steamapps\common\Arma 3 Server\arma3server_x64.exe"
 
 :: COLLECTION MODS
@@ -40,9 +40,9 @@ CALL SET headless_args5=%%headless_args%% -name=HC5
 
 setlocal disableDelayedExpansion disableExtensions
 
-ECHO START "ArmA3" /wait %ServerExe% %server_args%  %server_mods_arg% %mods_arg%> SOG_PF_SERVER.bat
-ECHO START "ArmA3" /wait %ServerExe% %headless_args1% %mods_arg%> SOG_PF_HC1.bat
-ECHO START "ArmA3" /wait %ServerExe% %headless_args2% %mods_arg%> SOG_PF_HC2.bat
-:: ECHO START "ArmA3" /wait %ServerExe% %headless_args3% %mods_arg%> SOG_PF_HC3.bat
-:: ECHO START "ArmA3" /wait %ServerExe% %headless_args4% %mods_arg%> SOG_PF_HC4.bat
-:: ECHO START "ArmA3" /wait %ServerExe% %headless_args5% %mods_arg%> SOG_PF_HC5.bat
+ECHO START "ArmA3" /wait %ServerExe% %server_args%  %server_mods_arg% %mods_arg%> SOG_PF+WS_SERVER.bat
+ECHO START "ArmA3" /wait %ServerExe% %headless_args1% %mods_arg%> SOG_PF+WS_HC1.bat
+ECHO START "ArmA3" /wait %ServerExe% %headless_args2% %mods_arg%> SOG_PF+WS_HC2.bat
+:: ECHO START "ArmA3" /wait %ServerExe% %headless_args3% %mods_arg%> SOG_PF+WS_HC3.bat
+:: ECHO START "ArmA3" /wait %ServerExe% %headless_args4% %mods_arg%> SOG_PF+WS_HC4.bat
+:: ECHO START "ArmA3" /wait %ServerExe% %headless_args5% %mods_arg%> SOG_PF+WS_HC5.bat

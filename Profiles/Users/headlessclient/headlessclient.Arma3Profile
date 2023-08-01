@@ -65,3 +65,4 @@ volumeSpeech=10;
 volumeVoN=10;
 vonRecThreshold=0.029999999;
 volumeMapDucking=1;
+volumeUI=1;

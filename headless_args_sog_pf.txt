@@ -9,7 +9,6 @@
 -skipIntro
 -enableHT
 -bandwidthAlg=2
--malloc=system
 "-profiles=C:\Games\steamapps\common\Arma 3\Profiles"
 "-config=C:\Games\steamapps\common\Arma 3\config.cfg"
 "-cfg=C:\Games\steamapps\common\Arma 3\basic.cfg"

@@ -3,7 +3,7 @@ blood=1;
 singleVoice=0;
 gamma=1;
 brightness=1;
-lastMPMission="debug_test_mission";
+lastMPMission="Apocalypse_Now";
 class MainMap
 {
 	class Compass

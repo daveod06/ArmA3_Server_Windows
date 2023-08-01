@@ -21,7 +21,10 @@ activeKeys[]=
 	"BIS_Dynamic-Recon-Ops-Vietnam.Tanoa_done",
 	"BIS_PUBG_Vietnam.Tanoa_done",
 	"BIS_Escape_Cam_Lao_Nam.Cam_Lao_Nam_done",
-	"BIS_Dynamic-Recon-Ops.Cam_Lao_Nam_done"
+	"BIS_Dynamic-Recon-Ops.Cam_Lao_Nam_done",
+	"BIS_Escape_Takistan_90s.takistan_done",
+	"BIS_Apocalypse_Now.cam_lao_nam_done",
+	"BIS_Escape_Sinai.SefrouRamal_done"
 };
 class DifficultyPresets
 {
@@ -83,3 +86,4 @@ volumeSpeech=10;
 volumeVoN=10;
 vonRecThreshold=0.029999999;
 volumeMapDucking=1;
+volumeUI=1;
