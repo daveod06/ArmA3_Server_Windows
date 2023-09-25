@@ -5,3 +5,4 @@ C:\Games\steamapps\common\Arma 3\^!Workshop\@Unsung Redux Stable;
 C:\Games\steamapps\common\Arma 3\^!Workshop\@Immersion Cigs for SOG Prairie Fire;
 C:\Games\steamapps\common\Arma 3\^!Workshop\@Tiger;
 C:\Games\steamapps\common\Arma 3\^!Workshop\@Zulu Headless Client (ZHC);
+C:\Games\steamapps\common\Arma 3\^!Workshop\@Arma 3 Performance Extension;

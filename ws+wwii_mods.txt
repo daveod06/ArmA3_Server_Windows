@@ -4,3 +4,4 @@ C:\Games\steamapps\common\Arma 3\^!Workshop\@CBA_A3;
 C:\Games\steamapps\common\Arma 3\^!Workshop\@Immersion Cigs for SOG Prairie Fire;
 C:\Games\steamapps\common\Arma 3\^!Workshop\@Zulu Headless Client (ZHC);
 C:\Games\steamapps\common\Arma 3\^!Workshop\@C-47 Skytrain Mega Pack;
+C:\Games\steamapps\common\Arma 3\^!Workshop\@Arma 3 Performance Extension;

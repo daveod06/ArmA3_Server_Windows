@@ -9,6 +9,10 @@
 -bandwidthAlg=2
 -loadMissionToMemory
 -enableHT
+-hugepages
+-noLogs
+-setThreadCharacteristics
+-limitFPS=50
 "-profiles=C:\Games\steamapps\common\Arma 3\Profiles"
 "-config=C:\Games\steamapps\common\Arma 3\config.cfg"
 "-cfg=C:\Games\steamapps\common\Arma 3\basic.cfg"

@@ -28,8 +28,8 @@ activeKeys[]=
 };
 class DifficultyPresets
 {
-	fadeDistanceStart=90;
-	fadeDistanceSpan=10;
+	fadeDistanceStart=150;
+	fadeDistanceSpan=50;
 	recoilCoef=1;
 	visionAidCoef=0.80000001;
 	divingLimitMultiplier=1;
@@ -76,8 +76,8 @@ difficulty="custom";
 forcedDifficulty="custom";
 sceneComplexity=300000;
 shadowZDistance=125;
-viewDistance=6000;
-preferredObjectViewDistance=4000;
+viewDistance=4000;
+preferredObjectViewDistance=2000;
 pipViewDistance=500;
 terrainGrid=3.125;
 volumeCD=10;
