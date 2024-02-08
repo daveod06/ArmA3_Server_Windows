@@ -1,13 +1,18 @@
--client
--connect=localhost
+-server
+-name=serverTEST
 -port=2302
--password=tits
--nosound
+-showScriptErrors
 -filePatching
 -world=empty
 -nosplash
 -skipIntro
+-loadMissionToMemory
 -enableHT
+-hugepages
+-setThreadCharacteristics
+-limitFPS=60
 -bandwidthAlg=2
 "-profiles=C:\Games\steamapps\common\Arma 3\Profiles"
+"-config=C:\Games\steamapps\common\Arma 3\config_TEST.cfg"
+"-cfg=C:\Games\steamapps\common\Arma 3\basic.cfg"
 -mod=curator;kart;heli;mark;expansion;jets;argo;orange;tacops;tank;dlcbundle;dlcbundle2;vn;ws;

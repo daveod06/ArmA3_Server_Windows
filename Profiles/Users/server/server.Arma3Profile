@@ -24,7 +24,9 @@ activeKeys[]=
 	"BIS_Dynamic-Recon-Ops.Cam_Lao_Nam_done",
 	"BIS_Escape_Takistan_90s.takistan_done",
 	"BIS_Apocalypse_Now.cam_lao_nam_done",
-	"BIS_Escape_Sinai.SefrouRamal_done"
+	"BIS_Escape_Sinai.SefrouRamal_done",
+	"BIS_FOB_Defense.Cam_Lao_Nam_done",
+	"BIS_Escape_Redux.SefrouRamal_done"
 };
 class DifficultyPresets
 {
@@ -59,17 +61,19 @@ class DifficultyPresets
 			scoreTable=1;
 			deathMessages=1;
 			vonID=1;
-			mapContent=1;
+			mapContentFriendly=1;
+			mapContentEnemy=1;
+			mapContentMines=1;
 			autoReport=1;
 			multipleSaves=0;
 		};
 		aiLevelPreset=1;
-		levelAI="AILevelLow";
+		levelAI="AILevelMedium";
 	};
 	class CustomAILevel
 	{
-		skillAI=0.2;
-		precisionAI=0.050000001;
+		skillAI=0.3;
+		precisionAI=0.15;
 	};
 };
 difficulty="custom";

@@ -1,13 +1,14 @@
--client
+-name=TEST_CLIENT
 -connect=localhost
 -port=2302
 -password=tits
--nosound
 -filePatching
 -world=empty
 -nosplash
 -skipIntro
 -enableHT
+-noPause
+-window
 -bandwidthAlg=2
 "-profiles=C:\Games\steamapps\common\Arma 3\Profiles"
 -mod=curator;kart;heli;mark;expansion;jets;argo;orange;tacops;tank;dlcbundle;dlcbundle2;vn;ws;

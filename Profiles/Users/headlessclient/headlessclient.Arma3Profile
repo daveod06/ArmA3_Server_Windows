@@ -38,7 +38,9 @@ class DifficultyPresets
 			scoreTable=1;
 			deathMessages=1;
 			vonID=1;
-			mapContent=1;
+			mapContentFriendly=1;
+			mapContentEnemy=1;
+			mapContentMines=1;
 			autoReport=1;
 			multipleSaves=0;
 		};
