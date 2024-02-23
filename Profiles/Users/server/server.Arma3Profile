@@ -72,13 +72,13 @@ class DifficultyPresets
 	};
 	class CustomAILevel
 	{
-		skillAI=0.3;
-		precisionAI=0.15;
+		skillAI=0.30000001;
+		precisionAI=0.15000001;
 	};
 };
 difficulty="custom";
 forcedDifficulty="custom";
-sceneComplexity=300000;
+sceneComplexity=100000;
 shadowZDistance=125;
 viewDistance=4000;
 preferredObjectViewDistance=2000;
