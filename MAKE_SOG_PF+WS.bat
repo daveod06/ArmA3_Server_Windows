@@ -5,7 +5,9 @@ SET ServerModsFile=server_mods.txt
 SET ServerArgsFile=server_args_sog_pf+ws.txt
 SET ServerTESTArgsFile=server_TEST_args_sog_pf+ws.txt
 SET HeadlessArgsFile=headless_args_sog_pf+ws.txt
-SET ClientArgsFile=client_args_sog_pf+ws.txt
+SET ClientArgsFile1=client_args_1_sog_pf+ws.txt
+SET ClientArgsFile2=client_args_2_sog_pf+ws.txt
+SET ClientArgsFile3=client_args_3_sog_pf+ws.txt
 SET ServerExe="C:\Games\steamapps\common\Arma 3 Server\arma3server_x64.exe"
 SET ClientExe="C:\Games\steamapps\common\Arma 3\arma3_x64.exe"
 
@@ -43,9 +45,19 @@ FOR /f "delims=" %%x IN (%HeadlessArgsFile%) DO (
 )
 
 :: CLIENT ARGS
-SET client_args=
-FOR /f "delims=" %%x IN (%ClientArgsFile%) DO (
-	CALL SET client_args=%%client_args%% %%x
+SET client_args1=
+FOR /f "delims=" %%x IN (%ClientArgsFile1%) DO (
+	CALL SET client_args1=%%client_args1%% %%x
+)
+:: CLIENT ARGS
+SET client_args2=
+FOR /f "delims=" %%x IN (%ClientArgsFile2%) DO (
+	CALL SET client_args2=%%client_args2%% %%x
+)
+:: CLIENT ARGS
+SET client_args3=
+FOR /f "delims=" %%x IN (%ClientArgsFile3%) DO (
+	CALL SET client_args3=%%client_args3%% %%x
 )
 
 CALL SET headless_args1=%%headless_args%% -name=HC1
@@ -60,7 +72,9 @@ ECHO START "ArmA3" /wait %ServerExe% %server_args%  %server_mods_arg% %mods_arg%
 ECHO START "ArmA3" /wait %ServerExe% %server_test_args%  %server_mods_arg% %mods_arg%> SOG_PF+WS_TEST_SERVER.bat
 ECHO START "ArmA3" /wait %ServerExe% %headless_args1% %mods_arg%> SOG_PF+WS_HC1.bat
 ECHO START "ArmA3" /wait %ServerExe% %headless_args2% %mods_arg%> SOG_PF+WS_HC2.bat
-ECHO START "ArmA3" /wait %ClientExe% %client_args% %mods_arg%> SOG_PF+WS_CLIENT.bat
+ECHO START "ArmA3" /wait %ClientExe% %client_args1% %mods_arg%> SOG_PF+WS_CLIENT1.bat
+ECHO START "ArmA3" /wait %ClientExe% %client_args2% %mods_arg%> SOG_PF+WS_CLIENT2.bat
+ECHO START "ArmA3" /wait %ClientExe% %client_args3% %mods_arg%> SOG_PF+WS_CLIENT3.bat
 :: ECHO START "ArmA3" /wait %ServerExe% %headless_args3% %mods_arg%> SOG_PF+WS_HC3.bat
 :: ECHO START "ArmA3" /wait %ServerExe% %headless_args4% %mods_arg%> SOG_PF+WS_HC4.bat
 :: ECHO START "ArmA3" /wait %ServerExe% %headless_args5% %mods_arg%> SOG_PF+WS_HC5.bat
