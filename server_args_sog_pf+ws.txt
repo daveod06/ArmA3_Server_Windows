@@ -12,6 +12,7 @@
 -setThreadCharacteristics
 -limitFPS=60
 -bandwidthAlg=2
+-maxMem=32767
 "-profiles=C:\Games\steamapps\common\Arma 3\Profiles"
 "-config=C:\Games\steamapps\common\Arma 3\config.cfg"
 "-cfg=C:\Games\steamapps\common\Arma 3\basic.cfg"

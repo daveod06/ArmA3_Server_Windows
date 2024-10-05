@@ -1,0 +1,12 @@
+C:\Games\steamapps\common\Arma 3\^!Workshop\@Zeus Enhanced;
+C:\Games\steamapps\common\Arma 3\^!Workshop\@Enhanced Movement;
+C:\Games\steamapps\common\Arma 3\^!Workshop\@CBA_A3;
+C:\Games\steamapps\common\Arma 3\^!Workshop\@Immersion Cigs for SOG Prairie Fire;
+C:\Games\steamapps\common\Arma 3\^!Workshop\@Unsung Redux Stable;
+C:\Games\steamapps\common\Arma 3\^!Workshop\@Tiger;
+C:\Games\steamapps\common\Arma 3\^!Workshop\@Cold War Rearmed III;
+C:\Games\steamapps\common\Arma 3\^!Workshop\@CUP Terrains - Core;
+C:\Games\steamapps\common\Arma 3\^!Workshop\@CUP Terrains - Maps;
+C:\Games\steamapps\common\Arma 3\^!Workshop\@CUP Units;
+C:\Games\steamapps\common\Arma 3\^!Workshop\@CUP Vehicles;
+C:\Games\steamapps\common\Arma 3\^!Workshop\@CUP Weapons;
