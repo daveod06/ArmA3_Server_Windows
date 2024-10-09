@@ -68,13 +68,13 @@ CALL SET headless_args5=%%headless_args%% -name=HC5
 
 setlocal disableDelayedExpansion disableExtensions
 
-ECHO START "ArmA3" /wait %ServerExe% %server_args%  %server_mods_arg% %mods_arg%> SOG_PF+WS_SERVER.bat
-ECHO START "ArmA3" /wait %ServerExe% %server_test_args%  %server_mods_arg% %mods_arg%> SOG_PF+WS_TEST_SERVER.bat
-ECHO START "ArmA3" /wait %ServerExe% %headless_args1% %mods_arg%> SOG_PF+WS_HC1.bat
-ECHO START "ArmA3" /wait %ServerExe% %headless_args2% %mods_arg%> SOG_PF+WS_HC2.bat
-ECHO START "ArmA3" /wait %ClientExe% %client_args1% %mods_arg%> SOG_PF+WS_CLIENT1.bat
-ECHO START "ArmA3" /wait %ClientExe% %client_args2% %mods_arg%> SOG_PF+WS_CLIENT2.bat
-ECHO START "ArmA3" /wait %ClientExe% %client_args3% %mods_arg%> SOG_PF+WS_CLIENT3.bat
-:: ECHO START "ArmA3" /wait %ServerExe% %headless_args3% %mods_arg%> SOG_PF+WS_HC3.bat
-:: ECHO START "ArmA3" /wait %ServerExe% %headless_args4% %mods_arg%> SOG_PF+WS_HC4.bat
-:: ECHO START "ArmA3" /wait %ServerExe% %headless_args5% %mods_arg%> SOG_PF+WS_HC5.bat
+ECHO START "ArmA3" /wait %ServerExe% %server_args%  %server_mods_arg% %mods_arg%> SOG_PF+WS+CUP_SERVER.bat
+ECHO START "ArmA3" /wait %ServerExe% %server_test_args%  %server_mods_arg% %mods_arg%> SOG_PF+WS+CUP_TEST_SERVER.bat
+ECHO START "ArmA3" /wait %ServerExe% %headless_args1% %mods_arg%> SOG_PF+WS+CUP_HC1.bat
+ECHO START "ArmA3" /wait %ServerExe% %headless_args2% %mods_arg%> SOG_PF+WS+CUP_HC2.bat
+ECHO START "ArmA3" /wait %ClientExe% %client_args1% %mods_arg%> SOG_PF+WS+CUP_CLIENT1.bat
+ECHO START "ArmA3" /wait %ClientExe% %client_args2% %mods_arg%> SOG_PF+WS+CUP_CLIENT2.bat
+ECHO START "ArmA3" /wait %ClientExe% %client_args3% %mods_arg%> SOG_PF+WS+CUP_CLIENT3.bat
+:: ECHO START "ArmA3" /wait %ServerExe% %headless_args3% %mods_arg%> SOG_PF+WS+CUP_HC3.bat
+:: ECHO START "ArmA3" /wait %ServerExe% %headless_args4% %mods_arg%> SOG_PF+WS+CUP_HC4.bat
+:: ECHO START "ArmA3" /wait %ServerExe% %headless_args5% %mods_arg%> SOG_PF+WS+CUP_HC5.bat
