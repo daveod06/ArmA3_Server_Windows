@@ -5,14 +5,16 @@
 -filePatching
 -world=empty
 -nosplash
+-nosound
 -skipIntro
 -loadMissionToMemory
--enableHT
+-cpuCount=12
 -hugepages
 -setThreadCharacteristics
--limitFPS=60
+-limitFPS=120
 -bandwidthAlg=2
--maxMem=16384
+-maxMem=12800
+-malloc=cma_x64
 -noLogs
 "-profiles=C:\Games\steamapps\common\Arma 3\Profiles"
 "-config=C:\Games\steamapps\common\Arma 3\config.cfg"

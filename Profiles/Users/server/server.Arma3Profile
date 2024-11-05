@@ -26,7 +26,8 @@ activeKeys[]=
 	"BIS_Apocalypse_Now.cam_lao_nam_done",
 	"BIS_Escape_Sinai.SefrouRamal_done",
 	"BIS_FOB_Defense.Cam_Lao_Nam_done",
-	"BIS_Escape_Redux.SefrouRamal_done"
+	"BIS_Escape_Redux.SefrouRamal_done",
+	"BIS_Escape_Redux.Cam_Lao_Nam_done"
 };
 class DifficultyPresets
 {

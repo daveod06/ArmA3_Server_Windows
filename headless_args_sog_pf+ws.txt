@@ -2,12 +2,18 @@
 -connect=localhost
 -port=2302
 -password=tits
--nosound
 -filePatching
 -world=empty
 -nosplash
+-nosound
 -skipIntro
--enableHT
+-loadMissionToMemory
+-cpuCount=12
+-hugepages
+-setThreadCharacteristics
+-limitFPS=120
 -bandwidthAlg=2
+-maxMem=12800
+-malloc=cma_x64
 "-profiles=C:\Games\steamapps\common\Arma 3\Profiles"
 -mod=curator;kart;heli;mark;expansion;jets;argo;orange;tacops;tank;dlcbundle;dlcbundle2;vn;ws;

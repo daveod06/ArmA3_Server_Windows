@@ -1,9 +1,10 @@
 C:\Games\steamapps\common\Arma 3\^!Workshop\@Zeus Enhanced;
 C:\Games\steamapps\common\Arma 3\^!Workshop\@Enhanced Movement;
+C:\Games\steamapps\common\Arma 3\^!Workshop\@Enhanced Movement Rework;
 C:\Games\steamapps\common\Arma 3\^!Workshop\@CBA_A3;
 C:\Games\steamapps\common\Arma 3\^!Workshop\@CUP Terrains - Core;
 C:\Games\steamapps\common\Arma 3\^!Workshop\@Faces of War;
 C:\Games\steamapps\common\Arma 3\^!Workshop\@IFA3 AIO;
 C:\Games\steamapps\common\Arma 3\^!Workshop\@Spearhead 1944 - IFA3 SPE Tank Overhaul;
-C:\Games\steamapps\common\Arma 3\^!Workshop\@@WW2_SPEX;
+C:\Games\steamapps\common\Arma 3\^!Workshop\@SPEX - Spearhead Extended;
 C:\Games\steamapps\common\Arma 3\^!Workshop\@IFA3-FoW-Spearhead 1944 Compatibility;
