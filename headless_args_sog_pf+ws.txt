@@ -8,12 +8,12 @@
 -nosound
 -skipIntro
 -loadMissionToMemory
--cpuCount=12
+-cpuCount=4
 -hugepages
 -setThreadCharacteristics
 -limitFPS=120
 -bandwidthAlg=2
--maxMem=12800
+-maxMem=16384
 -malloc=cma_x64
 "-profiles=C:\Games\steamapps\common\Arma 3\Profiles"
 -mod=curator;kart;heli;mark;expansion;jets;argo;orange;tacops;tank;dlcbundle;dlcbundle2;vn;ws;
